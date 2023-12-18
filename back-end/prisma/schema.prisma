@@ -35,5 +35,4 @@ model EventPeople{
 
   event Event? @relation(fields: [id_event], references: [id])
   groupo EventGroup? @relation(fields: [id_group], references: [id])
-
 }
