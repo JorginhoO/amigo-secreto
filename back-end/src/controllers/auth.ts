@@ -15,5 +15,5 @@ export const login: RequestHandler = (req, res) => {
     }
 
     // Retorno da requisição
-    res.json({ token: auth.createToken });
+    res.json({ token: auth.createToken() });
 }
