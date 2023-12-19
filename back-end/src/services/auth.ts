@@ -16,4 +16,3 @@ export const validateToken = (token: string) => {
     return token === currentToken;
 }
 
-//${process.env.DEFAULT_TOKEN}
